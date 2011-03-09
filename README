@@ -1,0 +1,13 @@
+The rough outline of the idea is to model the Perl internals for the
+set of BioPerl modules and load the data into a (Semantic MediaWiki)
+database.
+
+For example, we'd like to capture the inheritance hierarchy of the
+modules (probably in the MediaWiki category tree), methods and
+arguments, as well as usage metadata (using the community aspect of
+the wiki).
+
+For package introspection, we're starting with (but not limited to)
+Class::MOP.
+
+
