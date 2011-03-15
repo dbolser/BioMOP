@@ -11,3 +11,19 @@ For package introspection, we're starting with (but not limited to)
 Class::MOP.
 
 
+
+
+USAGE:
+
+./write_BioMOP.pm.plx > BioMOP.pm # dumping 885 PMs to 'package'
+
+
+## Comment out any packages that give you grief...
+
+perl -e 'use BioMOP'
+
+
+## Run the bar-bones deobfusticator thingy...
+
+./biomop-all.pl
+
